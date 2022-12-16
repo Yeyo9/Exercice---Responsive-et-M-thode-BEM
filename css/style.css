@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
 .nav {
     background-color: rgb(91, 53, 157);
     width: 350px;
     height: 100px;
     position: relative;
-
+    font-family: "Comic Sans MS";
 }
 
 .nav h1 {
@@ -11,7 +19,7 @@
     color: rgb(249, 248, 246);
     right: 23px;
     top: 10px;
-    font-family: Comic sans MS;
+    font-family: "Comic Sans MS";
 }
 
 
@@ -63,6 +71,7 @@ padding-left: 30%;
 div h1 {
 bottom: -180%;
 left: 0%;
+font-family: Roboto;
 width: 350px;
 height: 100px;
 color:rgb(253, 253, 251);
@@ -73,6 +82,8 @@ section h2 {
     left: 0%;
     position: relative;
     text-align: center;
+    color: #595959;
+    font-family: Roboto;
 }
 
 #ordi  {
@@ -99,6 +110,7 @@ text-align: center;
 position: relative;
 left: 18px;
 width: 30%;
+font-family: "Roboto", sans-serif;
 }
 
 
@@ -108,6 +120,7 @@ position: relative;
 left: 393px;
 width: 30%;
 top: -115px;
+font-family: "Roboto", sans-serif;
 }
 
 .third {
@@ -116,11 +129,13 @@ top: -115px;
     left: 810px;
     width: 20%;
     top: -227px;
+    font-family: "Roboto", sans-serif;
 }
 
 .quatro {
     text-align: center;
     position: relative;
+    font-family: "Roboto", sans-serif;
     left: 190px;
     width: 70%;
     top: -107px;
@@ -131,6 +146,7 @@ top: -115px;
 .cinco {
     text-align: center;
     position: relative;
+    font-family: "Roboto", sans-serif;
     left: 350px;
     width: 40%;
     top: -100px;
@@ -143,6 +159,7 @@ background-color: #5B359D;
 color: white;
 padding: 20px;
 text-align: center;
+font-family: "Roboto", sans-serif;
 }
 
 #twitter {
@@ -174,10 +191,12 @@ text-align: left;
 top: 1750px;
 position: absolute;
 font-weight: bold;
+font-family: "Roboto", sans-serif;
 }
 
 .six > p {
     color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
    }
    
 
@@ -187,10 +206,12 @@ left: 40%;
 position: absolute;
 color: rgb(249, 249, 249);
 font-weight: bold;
+font-family: "Roboto", sans-serif;
 }
 
 .sept > p {
  color: rgba(255, 255, 255, 0.5);
+ font-family: "Roboto", sans-serif;
 }
 
 
@@ -199,23 +220,18 @@ font-weight: bold;
 text-align: right;
 padding: 0;
 font-weight: bold;
+font-family: "Roboto", sans-serif;
 }
 
 .huit > p {
     color: rgba(255, 255, 255, 0.5);
+    font-family: "Roboto", sans-serif;
    }
    
 
 
 
-@media screen and (width: 1194px) (height: 834px) {
-    .nav {
-    background-color: rgb(91, 53, 157);
-    position: absolute;
-    left: 80%;
-}
-
-
-
+@media screen and (width: 1194px)  {
 
 }
+    
