@@ -1,0 +1,221 @@
+.nav {
+    background-color: rgb(91, 53, 157);
+    width: 350px;
+    height: 100px;
+    position: relative;
+
+}
+
+.nav h1 {
+    position: absolute;
+    color: rgb(249, 248, 246);
+    right: 23px;
+    top: 10px;
+    font-family: Comic sans MS;
+}
+
+
+#accueil {
+position: relative;
+top: 30%;
+right: -320%;
+}
+
+
+#mere {
+width: 1255px;
+height: 700px;
+}
+
+#logogo {
+top: 30%;
+width: 10%;
+left: 10%;
+position: absolute;
+}
+
+
+
+.container {
+    background-color: rgb(91, 53, 157);
+    color: rgb(255, 255, 255);
+    width: 22%;
+    height: 13%;
+    right: 40%;
+    position: absolute;
+    top: 375px;
+}
+
+.container #logo {
+height: 45%;
+position: absolute;
+left: 11%;
+top: 26%;
+}
+
+header h3 {
+width: 70%;
+padding: 3%;
+position: absolute;
+padding-left: 30%;
+}
+
+div h1 {
+bottom: -180%;
+left: 0%;
+width: 350px;
+height: 100px;
+color:rgb(253, 253, 251);
+position: absolute;
+}
+
+section h2 {
+    left: 0%;
+    position: relative;
+    text-align: center;
+}
+
+#ordi  {
+position:relative;
+right: -160px;
+width: 140px;
+}
+
+
+#tableau {
+position: relative;
+right: -370px;
+width: 140px;
+}
+
+#illustration {
+position:relative;
+right: -570px;
+width: 140px;
+}
+
+.first {
+text-align: center;
+position: relative;
+left: 18px;
+width: 30%;
+}
+
+
+.second {
+text-align: center;
+position: relative;
+left: 393px;
+width: 30%;
+top: -115px;
+}
+
+.third {
+    text-align: center;
+    position: relative;
+    left: 810px;
+    width: 20%;
+    top: -227px;
+}
+
+.quatro {
+    text-align: center;
+    position: relative;
+    left: 190px;
+    width: 70%;
+    top: -107px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.cinco {
+    text-align: center;
+    position: relative;
+    left: 350px;
+    width: 40%;
+    top: -100px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+footer {
+background-color: #5B359D;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+#twitter {
+    height: 10%;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 40%;
+    top: 290%
+}
+
+#fbk {
+    height: 10%;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 48%;
+    top: 290%
+}
+
+#insta {
+    height: 10%;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 57%;
+    top: 290%
+}
+
+.six {
+text-align: left;
+top: 1750px;
+position: absolute;
+font-weight: bold;
+}
+
+.six > p {
+    color: rgba(255, 255, 255, 0.5);
+   }
+   
+
+.sept {
+top: 1750px;
+left: 40%;
+position: absolute;
+color: rgb(249, 249, 249);
+font-weight: bold;
+}
+
+.sept > p {
+ color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.huit {
+text-align: right;
+padding: 0;
+font-weight: bold;
+}
+
+.huit > p {
+    color: rgba(255, 255, 255, 0.5);
+   }
+   
+
+
+
+@media screen and (width: 1194px) (height: 834px) {
+    .nav {
+    background-color: rgb(91, 53, 157);
+    position: absolute;
+    left: 80%;
+}
+
+
+
+
+}
