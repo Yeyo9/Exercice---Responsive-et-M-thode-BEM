@@ -1,237 +1,222 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Roboto&display=swap');
 
 body {
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    padding: 0;
 }
 
-.nav {
-    background-color: rgb(91, 53, 157);
-    width: 350px;
-    height: 100px;
-    position: relative;
-    font-family: "Comic Sans MS";
+
+.ioni {
+
+    display: none; 
+} 
+
+
+.navbar ul {
+    
+    display: flex;
+    justify-content: flex-end;
+    font-family: Roboto;
+    
 }
 
-.nav h1 {
+.navbar a {
+    
+    list-style-type: none;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.logo1 {
     position: absolute;
-    color: rgb(249, 248, 246);
-    right: 23px;
-    top: 10px;
-    font-family: "Comic Sans MS";
+    left: 35px;
+    top: 18px;
 }
 
 
-#accueil {
-position: relative;
-top: 30%;
-right: -320%;
-}
-
-
-#mere {
-width: 1255px;
-height: 700px;
-}
-
-#logogo {
-top: 30%;
-width: 10%;
-left: 10%;
-position: absolute;
+.premiertitre {
+   
+    background: #5B359D;
+    color: white;
+    padding: 27px;
+    padding-left: 90px;
+    width: 290px;
+    position: absolute;  
+    top: 0;
+    left: 0;
+    font-family: Comic Neue;
 }
 
 
 
-.container {
-    background-color: rgb(91, 53, 157);
-    color: rgb(255, 255, 255);
-    width: 22%;
-    height: 13%;
-    right: 40%;
-    position: absolute;
-    top: 375px;
+.grid {
+
+background: url(./img/bureau.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 40vw;
+display: grid;
+align-items: center;
+grid-template-rows: 1fr; 
+grid-template-columns: 1fr;
+
 }
 
-.container #logo {
-height: 45%;
-position: absolute;
-left: 11%;
-top: 26%;
-}
 
-header h3 {
-width: 70%;
-padding: 3%;
-position: absolute;
-padding-left: 30%;
-}
 
-div h1 {
-bottom: -180%;
-left: 0%;
-font-family: Roboto;
-width: 350px;
-height: 100px;
-color:rgb(253, 253, 251);
-position: absolute;
-}
+.grid-container {
 
-section h2 {
-    left: 0%;
-    position: relative;
-    text-align: center;
-    color: #595959;
+    display: grid;
+    justify-content: center;
+    align-items: center;
     font-family: Roboto;
 }
 
-#ordi  {
-position:relative;
-right: -160px;
-width: 140px;
+
+
+.phrase1  {
+
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    padding: 50px;
 }
 
+.flexbox {
 
-#tableau {
-position: relative;
-right: -370px;
-width: 140px;
-}
-
-#illustration {
-position:relative;
-right: -570px;
-width: 140px;
-}
-
-.first {
-text-align: center;
-position: relative;
-left: 18px;
-width: 30%;
-font-family: "Roboto", sans-serif;
-}
-
-
-.second {
-text-align: center;
-position: relative;
-left: 393px;
-width: 30%;
-top: -115px;
-font-family: "Roboto", sans-serif;
-}
-
-.third {
+    display: flex;
     text-align: center;
-    position: relative;
-    left: 810px;
-    width: 20%;
-    top: -227px;
-    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    padding: 70px;
+    font-family: Roboto;
 }
 
-.quatro {
-    text-align: center;
-    position: relative;
-    font-family: "Roboto", sans-serif;
-    left: 190px;
-    width: 70%;
-    top: -107px;
-    font-size: 30px;
-    color: rgba(0, 0, 0, 0.65);
+.GRAPHISME p {
+
+    width: 370px;
 }
 
-.cinco {
+.STRATEGIE p {
+
+    width: 380px;
+}
+
+.ILLUSTRATIONS p {
+
+    width: 310px;
+}
+
+
+.phrase2 {
+
+  width: 700px;  
+  font-family: Roboto;
+    
+}
+
+.fraz2  {
+
+    display: flex;
+    justify-content: center;
     text-align: center;
-    position: relative;
-    font-family: "Roboto", sans-serif;
-    left: 350px;
-    width: 40%;
-    top: -100px;
-    font-size: 20px;
-    color: rgba(0, 0, 0, 0.4);
+}
+
+
+.Amandine {
+
+    display: flex;
+    justify-content: center;
+    color: #00000066;
+    font-family: Roboto;
 }
 
 footer {
-background-color: #5B359D;
-color: white;
-padding: 20px;
-text-align: center;
-font-family: "Roboto", sans-serif;
-}
-
-#twitter {
-    height: 10%;
-    aspect-ratio: 1;
-    position: absolute;
-    left: 40%;
-    top: 290%
-}
-
-#fbk {
-    height: 10%;
-    aspect-ratio: 1;
-    position: absolute;
-    left: 48%;
-    top: 290%
-}
-
-#insta {
-    height: 10%;
-    aspect-ratio: 1;
-    position: absolute;
-    left: 57%;
-    top: 290%
-}
-
-.six {
-text-align: left;
-top: 1750px;
-position: absolute;
-font-weight: bold;
-font-family: "Roboto", sans-serif;
-}
-
-.six > p {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: "Roboto", sans-serif;
-   }
-   
-
-.sept {
-top: 1750px;
-left: 40%;
-position: absolute;
-color: rgb(249, 249, 249);
-font-weight: bold;
-font-family: "Roboto", sans-serif;
-}
-
-.sept > p {
- color: rgba(255, 255, 255, 0.5);
- font-family: "Roboto", sans-serif;
-}
-
-
-
-.huit {
-text-align: right;
-padding: 0;
-font-weight: bold;
-font-family: "Roboto", sans-serif;
-}
-
-.huit > p {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: "Roboto", sans-serif;
-   }
-   
-
-
-
-@media screen and (width: 1194px)  {
-
-}
+    background: #5B359D;
+    color: white;
+    height: 260px;
     
+}
+
+.phrase3 {
+
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: Roboto;
+}
+
+.reseaux {
+
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    letter-spacing: 90px;
+    color: #FFFFFF80;
+
+}
+
+.informations {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: Roboto;
+
+}
+
+.informations ul {
+
+    color: #FFFFFF80;
+}
+
+
+
+.coordonees li {
+
+    list-style: none;
+    width: 200px;
+}
+
+/* Ipad pro 11 */
+@media screen and (max-width: 834px) {
+    
+ 
+      .flexbox {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+      }
+
+
+}
+
+
+
+
+
+
+
+/* Iphone 13 Pro Max */
+@media screen and (max-width: 428px) {
+
+.flexbox {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+  
+}
+
